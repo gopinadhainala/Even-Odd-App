@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.counter-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  border-radius: 12px;
+  font-family: 'Roboto';
+  height: 350px;
+  width: 400px;
+}
+.count-text {
+  color: #1e293b;
+  font-weight: 500;
+}
+.button-increment {
+  font-size: 12px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 4px;
+}
+.instruction {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #334155;
+}
